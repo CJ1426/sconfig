@@ -1,0 +1,4 @@
+- tmux
+- openssh
+- wireguard
+- nftables
