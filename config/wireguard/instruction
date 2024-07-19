@@ -10,4 +10,6 @@
 4. goto /etc/wireguard
 5. create pvk and puk : 
 	umask 077; wg genkey | tee private | wg pubkey > public
-6. create and edit your interface config file [your interface].conf
+6. create and edit your interface config file "[your interface].conf"
+7. start wireguard interface : 
+	wg-quick up [your interface]
