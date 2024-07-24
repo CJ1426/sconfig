@@ -3,3 +3,4 @@
 - openssh
 - wireguard
 - nftables
+- fzf

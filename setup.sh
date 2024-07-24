@@ -5,6 +5,7 @@ fi
 
 if [ ! -f "~/.profile" ]; then
 	cat ./config/bashrc > ~/.profile
+	cat 'export ENV=$HOME/.bashrc' >> ~/.profile
 fi
 
 if [ ! -f "~/.inputrc" ]; then

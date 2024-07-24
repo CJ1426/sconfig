@@ -4,3 +4,9 @@ export EDITOR=nvim;
 alias v="nvim"
 alias grep='grep --color=auto -i'
 alias ls='ls --color=auto'
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -iv"
+alias df="df -h"
+alias free="free -mh"
+alias his='history | fzf'
