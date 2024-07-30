@@ -1,7 +1,7 @@
 export VISUAL=nvim;
 export EDITOR=nvim;
 
-alias v="nvim"
+alias v=$EDITOR
 alias grep='grep --color=auto -i'
 alias ls='ls --color=auto'
 alias cp="cp -iv"

@@ -4,3 +4,4 @@
 - wireguard
 - nftables
 - fzf
+- shodow
