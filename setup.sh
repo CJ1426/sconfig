@@ -15,3 +15,7 @@ fi
 if [ ! -f "~/.tmux.conf" ]; then
 	cat ./config/tmux.conf > ~/.tmux.conf
 fi
+
+echo "setup nftable" > Todo.list
+echo "setup doas : permit persist :wheel" >> Todo.list
+echo "setup ssh" >> Todo.list
