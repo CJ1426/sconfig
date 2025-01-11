@@ -25,3 +25,20 @@ enable module for it to work
 a2enmod ssl headers
 ```
 restart apache2 and you done
+
+# debian dhcp interface
+edit /etc/network/interfaces
+```
+auto <interface name>
+iface <interface name> inet dhcp
+```
+
+# debian static ip
+edit /etc/network/interfaces
+```
+auto <interface name>
+iface <interface name> inet static
+  address <your.ip.for.interface>
+  netmask <your.netmask.for.interface>
+  gateway <your.default.gate.way>
+```
