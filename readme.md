@@ -84,3 +84,16 @@ and finally start that service
 systemctl restart isc-dhcp-server
 ```
 WOW!! IT WORK!!!!!
+
+# alpine as router with nftable
+
+install nftable and setup with nftRrouter.conf
+setup static ip
+edit /etc/modules add nft_nat
+enable ip forward
+setup dhcp
+	- edit /etc/dhcpd
+	- edit /etc/conf.d/dhcpd
+	```
+	DHCPD_IFACE="<LAN interface>"
+	```
